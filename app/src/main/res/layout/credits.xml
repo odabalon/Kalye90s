@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/menubar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREDITS"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backcredits"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CODERS"
+        android:id="@+id/textView8"
+        android:textColor="#006400"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Justine Siccion"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView9"
+
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="9dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Jonathan Abalon"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView10"
+
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Art"
+        android:id="@+id/textView11"
+        android:textColor="#FFFF00"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dave Bibar"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView12"
+
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Justine Siccion"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView13"
+
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

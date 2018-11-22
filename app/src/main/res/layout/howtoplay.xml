@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/howtoplay">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patintero"
+        android:textSize="39dp"
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbars="horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/Backhow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textView3"
+
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_below="@+id/Backhow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="19dp"
+
+        android:textColor="#000000"
+
+        android:text="Patintero, also called Tinubigan, Patubig or Lantay-lantay, is a popular \nstreet game among Pinoys. It is considered to be best played and \nenjoyed at night especially when the moon is full. "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="One team guards the area and tries to tag the members of the other team without stepping off the lines. The other team tries to get through all the two or three lines without being tagged."
+        android:id="@+id/textView4"
+        android:textColor="#000000"
+
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How to Play"
+        android:id="@+id/textView5"
+        android:layout_marginTop="58dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="You need to avoid Onyok's friends and pass them by pressing and hold \nthe screen to go up and release to go down"
+        android:id="@+id/textView6"
+        android:textColor="#006400"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="37dp" />
+
+
+</RelativeLayout>

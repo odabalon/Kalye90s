@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Settings"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/buttonset" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Off Music"
+        android:id="@+id/off"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/on"
+        android:layout_alignEnd="@+id/on" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn On Music"
+        android:id="@+id/on"
+        android:layout_above="@+id/off"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Off Sound Effect"
+        android:id="@+id/button3"
+        android:layout_below="@+id/off"
+        android:layout_alignBottom="@+id/on"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH SCORE"
+        android:id="@+id/hscore"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+</RelativeLayout>
